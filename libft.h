@@ -6,7 +6,7 @@
 /*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/09 11:28:51 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/01/26 21:57:24 by jfarinha         ###   ########.fr       */
+/*   Updated: 2018/03/09 12:45:39 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,7 @@ int				ft_isalpha(int c);
 int				ft_isalnum(int c);
 int				ft_isascii(int c);
 int				ft_isprint(int c);
+int				ft_getindice(const char *str, char c);
 /*
 ** Transform char*
 */
