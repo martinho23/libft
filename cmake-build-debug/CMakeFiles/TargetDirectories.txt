@@ -1,3 +1,0 @@
-/home/jfarinha/work/libft/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jfarinha/work/libft/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jfarinha/work/libft/cmake-build-debug/CMakeFiles/libft.dir
