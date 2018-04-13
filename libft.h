@@ -6,7 +6,7 @@
 /*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/09 11:28:51 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/13 14:11:10 by jfarinha         ###   ########.fr       */
+/*   Updated: 2018/04/13 14:19:01 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 #include <stdlib.h>
 #include <unistd.h>
-#include <inttypes.h>
 /*
 ** List Structure
 */
