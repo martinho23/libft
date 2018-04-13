@@ -1,0 +1,4 @@
+#obj files + lib files
+*.o
+*.a
+*.so
