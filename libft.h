@@ -6,16 +6,24 @@
 /*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/09 11:28:51 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/17 09:07:53 by jfarinha         ###   ########.fr       */
+/*   Updated: 2018/04/17 15:38:40 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
+/*
+**Includes
+*/
 #include <stdlib.h>
 #include <unistd.h>
 #include <inttypes.h>
+/*
+**Defines
+*/
+#define STDIN 0
+#define STDOUT 1
+#define STDERR 2
 /*
 ** List Structure
 */
@@ -90,10 +98,13 @@ int				ft_tolower(int c);
 */
 size_t			ft_putchar(int c);
 size_t			ft_putstr(const char *str);
+size_t			ft_putnstr(const char*str, size_t n);
 size_t			ft_putendl(const char *str);
 size_t			ft_putnbr(int nbr);
 size_t			ft_putchar_fd(int c, int fd);
 size_t			ft_putstr_fd(const char *str, int fd);
+size_t			ft_puntstr_fd(const char *str, size_t n, int fd);
+size_t			ft_putwstr_fd(const int *str, int fd);
 size_t			ft_putendl_fd(const char *str, int fd);
 size_t			ft_putnbr_fd(int nbr, int fd);
 /*

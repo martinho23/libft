@@ -6,7 +6,7 @@
 #    By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/09 13:44:49 by jfarinha          #+#    #+#              #
-#    Updated: 2018/04/17 09:05:09 by jfarinha         ###   ########.fr        #
+#    Updated: 2018/04/17 11:03:25 by jfarinha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ FILES=	ft_memset	ft_memcpy	ft_memccpy	ft_memmove	ft_memchr	ft_memcmp\
 		ft_strmap	ft_strmapi	ft_strequ	ft_strnequ	ft_strsub	ft_strjoin\
 		ft_strtrim	ft_strsplit	ft_strfreejoin	ft_strfindoc\
 		ft_putchar	ft_putstr	ft_putendl	ft_putnbr	ft_putchar_fd\
-		ft_putstr_fd	ft_putendl_fd	ft_putnbr_fd \
+		ft_putstr_fd	ft_putendl_fd	ft_putnbr_fd	ft_putwstr_fd\
 		ft_lstnew	ft_lstdelone	ft_lstdel	ft_lstadd	ft_lstiter\
 		ft_lstmap
 
