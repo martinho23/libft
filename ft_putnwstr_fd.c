@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putwstr_fd.c                                    :+:      :+:    :+:   */
+/*   ft_putwnstr_fd.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jfarinha <jfarinha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/04/17 10:45:59 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/18 07:45:03 by jfarinha         ###   ########.fr       */
+/*   Created: 2018/04/18 04:01:54 by jfarinha          #+#    #+#             */
+/*   Updated: 2018/04/18 04:39:25 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_putwstr_fd(const wchar_t *str, int fd)
+int		ft_putnwstr_fd(const wchar_t *str, size_t n, int fd)
 {
-	size_t	len;
+	int len;
 
-	if ((fd > 0) && str)
-		return (-1);
-	len = 0;
-	while(str && *str)
-		len += ft_putchar_fd(*str++, fd);
-	return (len);
+	if (fd > 0 && str)
+	{
+		len = 0;
+		while (*str && (n > (size_t)len))
+			len += ft_putchar_fd(*str++, fd);
+		return (len);
+	}
+	return (-1);
 }
