@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_putwstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jfarinha <jfarinha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/11/14 11:51:19 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/18 07:37:53 by jfarinha         ###   ########.fr       */
+/*   Created: 2018/04/18 03:57:38 by jfarinha          #+#    #+#             */
+/*   Updated: 2018/04/18 07:44:38 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_putstr(const char *str)
+int		ft_putwstr(const wchar_t *str)
 {
-	return (ft_putstr_fd(str, STDOUT));
+	return (ft_putwstr_fd(str, STDOUT));
 }
