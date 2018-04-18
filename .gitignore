@@ -3,4 +3,5 @@
 *.a
 *.so
 *.So
+*.sh
 test*
