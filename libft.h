@@ -6,7 +6,7 @@
 /*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/09 11:28:51 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/19 12:05:13 by jfarinha         ###   ########.fr       */
+/*   Updated: 2018/04/23 13:37:42 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ void			*ft_memalloc(size_t size);
 ** String functions
 */
 size_t			ft_strlen(const char *str);
+size_t			ft_wstrlen(const wchar_t *wstr);
 size_t			ft_strlcat(char *dst, const char *src, size_t n);
 int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
@@ -94,6 +95,7 @@ int				ft_isalnum(int c);
 int				ft_isascii(int c);
 int				ft_isprint(int c);
 int				ft_getindice(const char *str, char c);
+size_t			ft_wcharlen(int c);
 /*
 ** Transform char*
 */

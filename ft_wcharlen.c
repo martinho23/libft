@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putwstr_fd.c                                    :+:      :+:    :+:   */
+/*   ft_wcharlen.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jfarinha <jfarinha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/04/17 10:45:59 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/23 13:52:17 by jfarinha         ###   ########.fr       */
+/*   Created: 2018/04/23 13:27:28 by jfarinha          #+#    #+#             */
+/*   Updated: 2018/04/23 13:31:29 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_putwstr_fd(const wchar_t *str, int fd)
+size_t	ft_wcharlen(int c)
 {
-	size_t	len;
-
-	if ((fd < 0) && str)
-		return (-1);
-	len = 0;
-	while(str && *str)
-		len += ft_putchar_fd(*str++, fd);
-	return (len);
+	if (c <= 0x7F)
+		return (1);
+	if (c <= 0x7FF)
+		return (2);
+	if (c <= 0xFFFF)
+		return (3);
+	if (c <= 0x10FFFF)
+		return (4);
+	return (-1);
 }

@@ -6,7 +6,7 @@
 #    By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/09 13:44:49 by jfarinha          #+#    #+#              #
-#    Updated: 2018/04/19 12:04:37 by jfarinha         ###   ########.fr        #
+#    Updated: 2018/04/23 13:39:00 by jfarinha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,12 +20,12 @@ FILES=	ft_memset	ft_memcpy	ft_memccpy	ft_memmove	ft_memchr	ft_memcmp\
 		ft_imtoalen_base\
 		ft_toupper	ft_tolower\
 		ft_isspace	ft_isdigit	ft_islower	ft_isupper	ft_isalpha	ft_isalnum\
-		ft_isascii	ft_isprint	ft_getindice\
+		ft_isascii	ft_isprint	ft_getindice	ft_wcharlen\
 		ft_strlen	ft_strdup	ft_strcpy	ft_strncpy	ft_strcat	ft_strncat\
 		ft_strlcat	ft_strchr	ft_strrchr	ft_strstr	ft_strnstr	ft_strcmp\
 		ft_strncmp	ft_strnew	ft_strdel	ft_strclr	ft_striter	ft_striteri\
 		ft_strmap	ft_strmapi	ft_strequ	ft_strnequ	ft_strsub	ft_strjoin\
-		ft_strtrim	ft_strsplit	ft_strfreejoin	ft_strfindoc\
+		ft_strtrim	ft_strsplit	ft_strfreejoin	ft_wstrlen\
 		ft_putchar	ft_putstr	ft_putendl	ft_putnbr	ft_putchar_fd\
 		ft_putstr_fd	ft_putendl_fd	ft_putnbr_fd	ft_putwstr_fd\
 		ft_putnwstr_fd	ft_putnwstr	ft_putwstr	ft_putnstr	ft_putnstr_fd\
