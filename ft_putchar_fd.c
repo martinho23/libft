@@ -6,10 +6,11 @@
 /*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/14 11:13:59 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/23 13:17:10 by jfarinha         ###   ########.fr       */
+/*   Updated: 2018/07/18 19:42:04 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 #include "libft.h"
 
 static void	putchar_fd(int c, int fd)

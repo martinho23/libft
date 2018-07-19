@@ -6,7 +6,7 @@
 #    By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/09 13:44:49 by jfarinha          #+#    #+#              #
-#    Updated: 2018/07/18 19:28:58 by jfarinha         ###   ########.fr        #
+#    Updated: 2018/07/18 19:49:41 by jfarinha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,10 +17,11 @@ SRCS=$(patsubst %, %.c, $(FILES))
 FILES=	ft_memset	ft_memcpy	ft_memccpy	ft_memmove	ft_memchr	ft_memcmp\
 		ft_memalloc	ft_memdel	ft_bzero\
 		ft_atoi		ft_itoa		ft_uimtoa_base	ft_uimtoalen_base\
-		ft_imtoalen_base\
+		ft_imtoalen_base		ft_atoim\
 		ft_toupper	ft_tolower\
 		ft_isspace	ft_isdigit	ft_islower	ft_isupper	ft_isalpha	ft_isalnum\
-		ft_isascii	ft_isprint	ft_getindice	ft_wcharlen\
+		ft_isascii	ft_isprint	ft_strisint\
+		ft_getindice	get_next_line	ft_wcharlen\
 		ft_strlen	ft_strdup	ft_strcpy	ft_strncpy	ft_strcat	ft_strncat\
 		ft_strlcat	ft_strchr	ft_strrchr	ft_strstr	ft_strnstr	ft_strcmp\
 		ft_strncmp	ft_strnew	ft_strdel	ft_strclr	ft_striter	ft_striteri\

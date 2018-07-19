@@ -6,7 +6,7 @@
 /*   By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/09 11:28:51 by jfarinha          #+#    #+#             */
-/*   Updated: 2018/04/23 13:37:42 by jfarinha         ###   ########.fr       */
+/*   Updated: 2018/07/16 05:31:47 by jfarinha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@
 #define STDIN 0
 #define STDOUT 1
 #define STDERR 2
+#define INTMAX 2147483647
+#define INTMIN -2147483648
 #define BASE2 "01"
 #define BASE8 "01234567"
 #define BASE10 "0123456789"
@@ -62,6 +64,7 @@ int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_strequ(const char *s1, const char *s2);
 int				ft_strnequ(const char *s1, const char *s2, size_t n);
 int				ft_strfindoc(const char *str, char oc);
+int				ft_strisint(const char *str);
 void			ft_strdel(char **ap);
 void			ft_strclr(char *str);
 void			ft_striter(char *str, void (*f)(char *));
@@ -123,6 +126,7 @@ int				ft_putnwstr_fd(const wchar_t *str, size_t n, int fd);
 */
 char			*ft_itoa(int nbr);
 int				ft_atoi(const char *str);
+intmax_t		ft_atoim(const char *str);
 int				ft_imtoalen_base(intmax_t nbr, int b);
 int				ft_uimtoalen_base(uintmax_t nbr, size_t b);
 int				ft_uimtoa_base(uintmax_t nbr, size_t b, char *ar, char *cl);
