@@ -5,3 +5,4 @@
 *.So
 *.sh
 test*
+.vscode

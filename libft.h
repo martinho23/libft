@@ -127,7 +127,7 @@ int				ft_putnwstr_fd(const wchar_t *str, size_t n, int fd);
 char			*ft_itoa(int nbr);
 int				ft_atoi(const char *str);
 intmax_t		ft_atoim(const char *str);
-int				ft_imtoalen_base(intmax_t nbr, int b);
+int				ft_imtoalen_base(intmax_t nbr, size_t b);
 int				ft_uimtoalen_base(uintmax_t nbr, size_t b);
 int				ft_uimtoa_base(uintmax_t nbr, size_t b, char *ar, char *cl);
 /*
