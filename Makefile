@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jfarinha <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: jfarinha <jfarinha@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/09 13:44:49 by jfarinha          #+#    #+#              #
-#    Updated: 2018/07/18 19:49:41 by jfarinha         ###   ########.fr        #
+#    Updated: 2020/12/27 16:33:29 by jfarinha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ FILES=	ft_memset	ft_memcpy	ft_memccpy	ft_memmove	ft_memchr	ft_memcmp\
 		ft_putstr_fd	ft_putendl_fd	ft_putnbr_fd	ft_putwstr_fd\
 		ft_putnwstr_fd	ft_putnwstr	ft_putwstr	ft_putnstr	ft_putnstr_fd\
 		ft_lstnew	ft_lstdelone	ft_lstdel	ft_lstadd	ft_lstiter\
-		ft_lstmap
+		ft_lstmap	ft_thrower ft_countlines	get_next_line
 
 %.o:%.c
 	gcc $(FLAGS) -c -I. $<
